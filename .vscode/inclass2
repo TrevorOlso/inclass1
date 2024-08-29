@@ -1,4 +1,4 @@
-const promp = require('prompt-sync')();
+let promp = require('prompt-sync')();
 
 let numFib = parseFloar(prompt("enter how many fibonacci numbers you want"));
 
