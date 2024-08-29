@@ -1,5 +1,5 @@
 // Get user input for weight and height
-var prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')();
 
 let weight = parseFloat(prompt("Enter your weight in kilograms:"));
 let height = parseFloat(prompt("Enter your height in meters:"));
